@@ -47,6 +47,7 @@ $(document).ready(function () {
 
 });
 
+// ADDING FUNCTON TO SCROLL 
 function scrollToSection() {
     // Get the target section
     const targetSection = document.getElementById("bottom");
