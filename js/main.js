@@ -46,3 +46,10 @@ $(document).ready(function () {
     AOS.init();
 
 });
+
+function scrollToSection() {
+    // Get the target section
+    const targetSection = document.getElementById("bottom");
+    // Smooth scroll to the target section
+    targetSection.scrollIntoView({ behavior: "smooth" });
+}
